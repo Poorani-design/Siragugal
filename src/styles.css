@@ -1,1 +1,47 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --global-color-primary: #000000;
+    --global-color-secondary: #FF1E56;
+    --global-color-text: #C6C6C6;
+    --global-color-accent: #FFAC41;
+    --global-color-5d3c504: #FFFFFF;
+    --global-typography-primary-font-family: "Roboto";
+    --global-typography-primary-font-weight: 600;
+    --global-typography-secondary-font-family: "Roboto Slab";
+    --global-typography-secondary-font-weight: 400;
+    --global-typography-text-font-family: "Roboto";
+    --global-typography-text-font-weight: 400;
+    --global-typography-accent-font-family: "Roboto";
+    --global-typography-accent-font-weight: 500;
+    --font-color: #C6C6C6;
+    --font-family: "Josefin Sans", Sans-serif;
+    --font-size: 20px;
+    --line-height: 1.5em;
+    --letter-spacing: 0.5px;
+}
+/* reset css */
+body{
+    background-color: #000 ;
+    color:#fff;
+}
+
+.fw-700{
+    font-weight: 700;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-family: 'Cormorant Upright', serif;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+.navbar-brand{
+    font-weight: 800;
+    font-family: Poppins;    
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.navbar-brand:hover{
+    color: #fff;
+}

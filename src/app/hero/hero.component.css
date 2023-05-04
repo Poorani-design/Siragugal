@@ -1,0 +1,30 @@
+.hero-header{
+    font-weight: 900;
+    letter-spacing: 6px;
+    font-size: 10vh;
+}
+.hero-img{
+    border-radius: 20px;
+    height:600px;    
+}
+.call-me{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    color:#fff;
+}
+.btn-danger, .btn-danger>a{
+    background: var(--global-color-secondary)!important;
+}
+
+@media screen and (max-width:500px) {
+    .hero-img{
+        border-radius: 20px;
+        height:400px;    
+    }
+    .hero-header{
+        font-size: 5vh;
+        font-weight: 900;
+    letter-spacing: 2px;
+    }
+}

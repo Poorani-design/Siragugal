@@ -1,0 +1,40 @@
+*{
+    background-color: #000;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+
+}
+.footer-link{
+    font-weight: 800;
+}
+.footer-brand-name{
+    font-size: 1.5rem;
+
+}
+footer{
+    background-color: #000;
+}
+ul{
+    list-style-type: none;
+}
+.fa{
+    margin-right: 1rem;
+    font-size: 15px;
+    font-weight: bold;
+    color:var(--global-color-secondary)
+}
+a{
+    text-decoration: none;
+    color:var(--global-color-secondary);
+}
+a:hover{
+    color:var(--global-color-accent);
+}
+.footer-line{
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--global-color-secondary);
+}
+.copyrights-text{
+    color:var(--global-color-accent);
+    font-weight: bold;
+}

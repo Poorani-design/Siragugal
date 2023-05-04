@@ -1,0 +1,12 @@
+.img-fluid{
+    height:350px;
+    width:250px;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+}
+@media screen and (max-width:500px) {
+    .img-fluid{
+        height: 290px;
+        width: 200px;
+    }
+}
