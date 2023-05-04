@@ -10,8 +10,6 @@ export class GalleryComponent implements OnInit {
   makeupTopic:any;
   constructor() {
     this.makeup=[
-    '../../assets/images/makeup_images/siragugal_bridal_makeup_1.jpeg',
-    '../../assets/images/makeup_images/siragugal_bridal_makeup_2.jpeg',
     '../../assets/images/makeup_images/siragugal_bridal_makeup_3.jpg',
     '../../assets/images/makeup_images/siragugal_bridal_makeup_4.jpeg',
     '../../assets/images/makeup_images/siragugal_bridal_makeup_5.jpeg',
@@ -26,6 +24,9 @@ export class GalleryComponent implements OnInit {
     '../../assets/images/makeup_images/siragugal_bridal_makeup_14.jpeg',
     '../../assets/images/makeup_images/siragugal_bridal_makeup_15.jpeg',
     '../../assets/images/makeup_images/siragugal_bridal_makeup_16.jpeg',
+    
+    '../../assets/images/makeup_images/siragugal_bridal_makeup_1.jpeg',
+    '../../assets/images/makeup_images/siragugal_bridal_makeup_2.jpeg',
 
 
 
