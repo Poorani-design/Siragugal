@@ -1,5 +1,11 @@
 <div class="container-fluid">
-    <div class="row">
+
+    <div class="row" id="gallery">
+        <div>
+            <h5 class="service-header text-center my-2 mb-5">
+                OUR GALLERY
+            </h5>
+        </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex justify-content-center "  *ngFor="let gallery_img of makeup" >
             <img  class="img-fluid" src={{gallery_img}} height='300px' width='250px' alt="" >
         </div>

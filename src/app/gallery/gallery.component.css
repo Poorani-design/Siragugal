@@ -10,3 +10,16 @@
         width: 200px;
     }
 }
+.service-header{
+    font-weight: 900;
+    font-size:3em;
+}
+
+@media screen and (max-width:500px) {
+ 
+    .service-header{
+        font-size: 5vh;
+        font-weight: 900;
+    letter-spacing: 2px;
+    }
+}
