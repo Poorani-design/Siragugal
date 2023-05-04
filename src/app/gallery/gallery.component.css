@@ -6,8 +6,8 @@
 }
 @media screen and (max-width:500px) {
     .img-fluid{
-        height: 290px;
-        width: 200px;
+        height: 400px;
+        width: 340px;
     }
 }
 .service-header{
